@@ -1,0 +1,136 @@
+.kotak{
+    background: rgba(255, 255, 255, 0.225);
+    backdrop-filter: blur(30px);
+    width: 900px;
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    text-align: start;
+    margin-left: 310px;
+}
+.kotak h2{
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.kotak h1{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-family: Helvetica;
+    font-weight: bold;
+    margin-top: -60px;
+    margin-left: 28px;
+}
+
+.kotak p{
+        max-width: 570px;
+    color: rgb(255, 255, 255);
+    margin-left: 28px;
+}
+
+input[type="text"]{
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+    width: 180px;
+    outline: none;
+    background-color: transparent;
+
+
+}
+label{
+    color: rgb(255, 255, 255);
+    margin-top: 16px;
+    margin-left: 28px;
+    font-size: 14px;
+}
+
+.jumlah{
+    display: flex;
+    flex-direction: row;
+}
+
+input[type="number"]{
+    border: none;
+    color: rgba(255, 255, 255, 0.508);
+    text-align: center;
+    margin-left: -10px;
+    margin-top: 16.1px;
+    border-style: none;
+    height: 20px;
+    outline: none;
+    font-size: 14px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+  background: #ffffffd3;
+  color: rgba(0, 0, 0, 0.993);
+    backdrop-filter: blur(30px);
+  border: none;
+  margin-top: 24px;
+  cursor: pointer;
+  border-radius: 15px;
+  width: 90%;
+  height: 50px;
+  justify-content: center;
+   transition: all 0.2s ease-in-out;
+}
+
+button:hover{
+    box-shadow: 0 0 60 white;
+}
+
+.gm{
+    justify-content: center;
+    height: 400px;
+    width: 350px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+img{
+    border-radius: 10px;
+}
+
+
+.bg{
+    margin-top: -1300px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-position: center;
+    overflow: hidden;
+    filter: blur(50px);
+}
+
+[id="totalHarga"]{
+    margin-top: 18px;
+    text-align: start;
+    font-weight: bold;
+}
+
+[id="nama"]{
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+[id="email"]{
+    font-size: 16px;
+    margin-left: 20px;
+}
+.error{
+    margin-left: 30px;
+    font-size: 12px;
+    color: red;
+}
