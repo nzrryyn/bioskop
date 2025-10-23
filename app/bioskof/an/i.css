@@ -1,0 +1,183 @@
+.topnav{
+    width: 100%;
+    padding: 40px;
+    background: rgba(40, 40, 40, 0.052); 
+    backdrop-filter: blur(30px); 
+    border-radius: 5px;
+    justify-content: center;
+    display:flex;
+    gap: 100px;
+    position: fixed;
+    top:0;
+}
+
+li{ 
+        color: rgb(254, 254, 254);
+        text-decoration: none;
+        transition: all 0.2s ease-in-out;
+        font-weight: normal;
+}
+
+li:hover{
+    filter: drop-shadow(0 0 30 rgb(0, 9, 177));
+}
+
+
+
+.gambar1{
+    width: 1200px;
+    height: 100px;
+    margin-top: -40em;
+    position: absolute;
+}
+
+.container{
+    justify-content: center;
+    text-align: center;
+    display: contents;
+    justify-content: center;
+    align-items: center;    
+}
+.container h1{
+    font-size: 72px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: start;
+
+}
+.container h2{
+    text-align: start;
+    font-size: 48px;
+    font-weight: 400;
+    align-items: center;
+}
+
+.container p{
+    max-width: 500px;
+    margin-left: 700px;
+    text-align: start;
+}
+
+.container h3{
+    font-size: 20px;
+}
+
+.button1{
+    background:white;
+    color:  rgb(11, 25, 151);
+    padding: 15px;
+    cursor: pointer;
+    width: 500px;
+    border-radius: 15px;
+    margin-top: 50px;
+    justify-items: center;
+    margin-left: 700px;
+
+}
+
+.button1:hover{
+    background: #0a0dcb;
+    color: white;
+
+}
+
+li{
+    list-style: none;
+}
+
+
+
+
+
+
+.movie-card {
+  position: relative;
+  width: 250px;
+  height: 380px;
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin: 15px;
+    display: flex;
+    flex-direction: row;
+    box-shadow:0 0 90 #130671;
+ 
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top,#010425, transparent);
+  color: white;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.movie-card:hover .overlay {
+  opacity: 1;
+}
+
+.release-date {
+  color: #ffffff;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  border: none;
+  padding: 8px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+
+.ticket {
+  background-color: #dddac4;
+  color: #0a0dcb;
+}
+
+.ticket:hover {
+  background-color: #0a0dcb;
+  color: #dddac4;
+}
+
+.kartu {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 680px;
+    margin-top: 100px;
+
+}
+
+.kartu p{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
